@@ -1,0 +1,17 @@
+.container-gitHubIcon{
+
+}
+.content-container-gitHubIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 70px;
+    height: 50px;
+}
+.title-icons{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}

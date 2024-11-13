@@ -1,0 +1,17 @@
+.containerNavHours {
+    background-color: #2f4d65;
+    color: #fff;
+    font-weight: 700;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    
+}
+
+.contentHours{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
