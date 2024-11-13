@@ -9,7 +9,7 @@ export const ContentStudent = () => {
 
                 <h3 style={{marginBottom:'5px'}}>Projeto Desenvolvido na faculdade</h3>
                 <div className="content-img-modal">
-                    <img width='100%' height='300px' src={imagetechNews}/>
+                    <img width='100%' alt='user' height='300px' src={imagetechNews}/>
                 </div>
                 <p>
                 projeto que eu fiz em conjunto com o meu grupo da faculdade, para a disciplina de desenvolvimento Web. A base do trabalho ela montar uma estrutura que aplicasse no front-end o JAVASCRIPT, HTML, CSS e o BOOTSTRAP, e no back-end usamos o PHP aliado ao MySQL para forma nosso banco de dados.
