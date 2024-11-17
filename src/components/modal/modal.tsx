@@ -13,6 +13,7 @@ export const ModalCustom: React.FC<ModalProps>= ({ isOpen, onClose, children }:M
             isOpen={isOpen}
             onRequestClose={onClose} 
             contentLabel="Exemplo de Modal"
+            data-testid='modal-custom'
             style={{
                 overlay: {
                     position: 'fixed',
@@ -40,7 +41,9 @@ export const ModalCustom: React.FC<ModalProps>= ({ isOpen, onClose, children }:M
                 },
             }}
         >
-            {children}
+            <div data-testid="modal-custom">
+                {children}
+            </div>
             <button
                 onClick={onClose}
                 style={{

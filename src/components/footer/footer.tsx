@@ -2,10 +2,6 @@ import "./style.css"
 
 import { SiWindows11 } from "react-icons/si";
 import { IoIosSearch } from "react-icons/io";
-import { FaEdge } from "react-icons/fa";
-import { VscVscode } from "react-icons/vsc";
-import { BsMicrosoftTeams } from "react-icons/bs";
-import { FaChrome } from "react-icons/fa";
 
 import imagemVsCode from '../../assets/vscode.png'
 import imagemChrome from '../../assets/chrome.png'
@@ -33,7 +29,7 @@ export const Footer = () => {
 
                 <div className="container-icons">
                     <div className="icon-with-dropdown">
-                        <img alt='imagem'src={iconEdge} style={{ height: '30px', width: '30px', marginRight: '7px', marginLeft: '5px' }}/>
+                        <img alt='image'src={iconEdge} style={{ height: '30px', width: '30px', marginRight: '7px', marginLeft: '5px' }}/>
                         <div className="dropdown">
                             <div className="container-dropdown">
                                 <div className="container-title-dropdown">
@@ -43,7 +39,7 @@ export const Footer = () => {
                                     <p>Pesquisas devs - Egde</p>
                                 </div>
                                 <div className="container-imagem-dropdown">
-                                    <img alt='imagem' src={imagemEdge} width='180px' height='100px'/>
+                                    <img alt="imagemEdge" src={imagemEdge} width='180px' height='100px'/>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +55,7 @@ export const Footer = () => {
                                     <p>index.tsx - react projeto</p>
                                 </div>
                                 <div className="container-imagem-dropdown">
-                                    <img alt='imagem' src={imagemVsCode} width='180px' height='100px'/>
+                                    <img alt='vscode' src={imagemVsCode} width='180px' height='100px'/>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +71,7 @@ export const Footer = () => {
                                     <p>Calendário - Matheus</p>
                                 </div>
                                 <div className="container-imagem-dropdown">
-                                    <img alt='imagem' src={imagemTeams} width='180px' height='100px'/>
+                                    <img alt='teams' src={imagemTeams} width='180px' height='100px'/>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +87,7 @@ export const Footer = () => {
                                     <p>React App - Google</p>
                                 </div>
                                 <div className="container-imagem-dropdown">
-                                    <img alt='imagem' src={imagemChrome} width='180px' height='100px'/>
+                                    <img alt='chrome' src={imagemChrome} width='180px' height='100px'/>
                                 </div>
                             </div>
                         </div>
