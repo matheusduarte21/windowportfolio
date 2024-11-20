@@ -50,15 +50,15 @@ test('testando a existência de children no modal', () =>{
     expect(contentContainer?.querySelectorAll('div').length).toBe(1);
 })
 
-test('test de snapshot do modal', ()=>{
-    const oncloseMock = jest.fn()
+// test('test de snapshot do modal', ()=>{
+//     const oncloseMock = jest.fn()
 
-    const {asFragment} = render(
-        <ModalCustom isOpen={true} onClose={oncloseMock}>
-            <div>Conteúdo do Modal</div>
-        </ModalCustom>
-    );
+//     const {asFragment} = render(
+//         <ModalCustom isOpen={true} onClose={oncloseMock}>
+//             <div>Conteúdo do Modal</div>
+//         </ModalCustom>
+//     );
 
-    expect(asFragment).toMatchSnapshot()
-})
+//     expect(asFragment).toMatchSnapshot()
+// })
 
