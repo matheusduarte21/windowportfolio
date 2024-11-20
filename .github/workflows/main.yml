@@ -9,6 +9,7 @@ on:
     - main
 
 jobs:
+  CI:
   build-and-test:
     runs-on: ubuntu-latest
 
