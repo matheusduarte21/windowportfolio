@@ -28,6 +28,7 @@ jobs:
         run: npm test -- --watchAll=false
 
   CD:
+    needs: CI
     runs-on: ubuntu-latest
 
     steps:
