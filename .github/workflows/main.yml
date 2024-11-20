@@ -26,3 +26,10 @@ jobs:
 
       - name: Run Jest tests
         run: npm test -- --watchAll=false
+
+  CD:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to Vercel
+        run: npx vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
